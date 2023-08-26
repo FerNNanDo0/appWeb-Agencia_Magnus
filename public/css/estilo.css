@@ -151,9 +151,11 @@ h3 {
 }
 p {
     margin-left: 25px;
+    padding-right: 5px;
     font-weight: bold;
     color: rgb(15, 9, 95);
 }
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
@@ -181,6 +183,20 @@ p {
     #titulo-serv {
         text-align: center;
     }
+
+    .albuns p {
+        margin-left: 15px;
+        margin-right: 5px;
+    } 
+
+    /* menu */
+    nav ul li a {
+        /* border: 1px solid red; */
+        width: 90px;
+        text-align: center;
+        margin: 0 -10px;
+    }
+
 }
 
 /* Small devices (landscap phones, 576px and up) */
@@ -207,6 +223,14 @@ p {
 
     #titulo-serv {
         text-align: center;
+    }
+
+    /* menu */
+    nav ul li a {
+        /* border: 1px solid red; */
+        width: 90px;
+        text-align: center;
+        margin: 0 -10px;
     }
 }
 
